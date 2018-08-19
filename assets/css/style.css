@@ -1,0 +1,60 @@
+
+body {	
+    background-image: url("../../assets/images/questionMarks3.jpg");
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+#start-button {
+    border: 2px solid;
+    box-shadow: 4px 4px Pink;
+    }
+
+#titleDiv {
+    background-image: url("../../assets/images/questionMarks3.jpg");
+    font-size: 100px;
+    color: Pink;
+    text-shadow: 4px 4px black;
+}
+
+#questionSection {
+    font-size: 45px;
+    color: Pink;
+    background: black;
+}
+
+#timer {
+    font-size: 45px;
+    color: black;
+    background: transparent;
+}
+
+#scoreboard {
+    font-size: 35px;
+    color: black;
+    background: grey;
+}
+
+.answer {
+    font-size: 35px;
+    border: 1px solid;
+    width: 50%;
+    white-space: normal;
+}
+
+#lose {
+    border-radius: 9%;
+}
+
+#winSection{
+    font-size: 50px;
+    color: red;
+    text-shadow: 2px 2px black;
+}
+
+.next {
+    font-size: 35px;
+    border: 1px solid;
+    width: 20%;
+    white-space: normal;
+}
+

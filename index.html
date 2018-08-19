@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Trivia Game (Timed)</title>
+    <!-- jQuery Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <!-- additional CSS -->
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed" rel="stylesheet">
+  </head>
+  <body>
+    <div class="text-center" id="titleDiv" title="Trivia">Bob Helm's Trivia Frenzy
+      <br>
+    </div>
+  
+    <div class="text-center" id="game-action">
+        <div id="scoreboard"></div>
+        <div class="main-action">        
+          <div id="timer" title="time's a wastin'">Answer 10 Questions in 60 Seconds!</div>
+          <button class="btn btn-dark btn-lg" id="start-button" title="Do it!"><h1>Click to Start the Game</h1></button>
+          <div id="questionSection" title="It's not that hard, eh?"></div>
+          <div id="loseSection">
+              <br>
+              <img id="lose" src ="./assets/images/nope.jpg" title="Better luck next time">
+          </div>
+          <div id="timeoutSection">
+            <br>
+            <img id="timeout" src ="./assets/images/alarmClock.gif" title="Time's Up!">
+        </div>
+        <div id="answersSection">
+          <br>
+          <p><button class="answer btn btn-dark btn-lg" id="butA0"></button></p>
+          <p><button class="answer btn btn-dark btn-lg" id="butA1"></button></p>
+          <p><button class="answer btn btn-dark btn-lg" id="butA2"></button></p>
+          <p><button class="answer btn btn-dark btn-lg" id="butA3"></button></p>
+      </div>
+          <div>
+              <br><button class="next btn btn-dark btn-lg" id="nextQuestion">Next Question</button>
+              <br><button class="next btn btn-dark btn-lg" id="seeResults">Next</button>
+          </div>   
+          <div id="winSection" title="Nice Work!">
+            Nice Job!
+            <img id="win" src ="./assets/images/thumbsup4.jpg" width="702" height="468" >
+          </div>   
+        </div>
+    </div>
+
+
+    <!-- script link -->
+    <script src ="./assets/javascript/app.js"> </script>  
+
+  </body>
+
+</html>
+
